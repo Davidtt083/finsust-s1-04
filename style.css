@@ -8,10 +8,10 @@
 
 .very-specific-design {
   width: 1000px;
-  height: 720px;
+  height: 625px;
   padding: 50px;
   text-align: center;
-  background: white;
+  background: rgb(255, 255, 255);
   position: relative;
   left: 50%;
   top: 50%;
