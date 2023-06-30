@@ -22,15 +22,101 @@
 
 
 
-    <div id="div1"></div>
-    <div class="conexto btn1" id="btn1">Haz clic para comenzar</div>
-    
+  <div id="div1"></div>
+  <div class="botonera hide" id="botonera">
+    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">institucionales</div>
+    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">calificados</div>
+    <div class="conexto" id="btn4" onclick="mostrarp(3,4,3)">minoritarios</div>
+  </div>
+  <div class="conexto btn1" id="btn1">Haz clic para comenzar</div>
 
+  <div class="texto1 hide align-items-center" id="text1">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Inversionistas institucionales</b><br><br>
+        <p class="justo">
+          Estos inversionistas son los que mueven la mayor cantidad de dinero en un país, generalmente son los fondos de
+          pensiones, las aseguradoras y afianzadoras; así que su función primordial es invertir en forma responsable el
+          dinero, buscando el menor riesgo posible y un buen retorno.
 
-    <!-------------scripts------------------>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-    <script src="./script.js"></script>
+          Es por ello por lo que este tipo de inversionistas son los que buscan seguir un mandato en función del riesgo
+          de sus clientes, por lo que su decisión de inversión debe ser muy cuidadosa y regulada. Algunos ejemplos de
+          estos son: bancos, sociedades financieras, compañías de seguros, entidades nacionales de reaseguro y
+          administradoras de fondos autorizados por ley.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text2">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Inversionistas calificados</b><br><br>
+        <p class="justo">
+          Son aquellos que operan generalmente recursos propios, tienen montos importantes para invertir y por ende
+          mucha experiencia. Como ejemplo están los inversionistas institucionales y otros intermediarios que realizan
+          operaciones por cuenta propia. Además, de las personas (naturales y jurídicas) que realicen con frecuencia
+          operaciones con valores por montos importantes o que por su profesión o patrimonio se pueda presumir que
+          poseen un elevado conocimiento del funcionamiento del mercado de valores. La ley pondrá los límites,
+          parámetros y condiciones que deben de cumplir para ser inversionistas calificados, etcétera.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text3">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Inversionistas minoritarios</b><br><br>
+        <p class="justo">
+          En este rubro caen las personas físicas que operan generalmente recursos propios, con montos menores. Se
+          define como “accionista minoritario” a todo aquel socio o inversionista que no ostenta de manera independiente
+          el poder para tomar decisiones dentro de la empresa, toda vez que no cuenta con un porcentaje de capital
+          aportado que le confiera de manera significativa los votos requeridos para poder aprobar u oponerse a una
+          decisión, o bien, que no sea participe de un acuerdo tomado por los accionistas que reúnen los votos
+          necesarios para aprobar o negar una decisión.
+
+          Ejemplo: Inversionistas con menos de 50 % de empresas como Alfa, Cemex, Femsa, etcétera.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contelot hide" id="lot1"></div>
+  <div class="contelot hide" id="lot2"></div>
+  <div class="contelot hide" id="lot3"></div>
+
+  <!-------------scripts------------------>
+
+  <script>
+    var animationOptions = {
+	container: document.getElementById('lot1'),
+	path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+};
+
+// Cargar la animación
+var animsol2 = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+<script>
+  var animationOptions = {
+container: document.getElementById('lot2'),
+path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
+renderer: 'svg',
+loop: true,
+autoplay: true,
+};
+
+// Cargar la animación
+var animsol = bodymovin.loadAnimation(animationOptions);
+</script>
+
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
 
