@@ -102,13 +102,3 @@ div2.addEventListener('click', function () {
 
 
 
-var animationOptions = {
-	container: document.getElementById('lot1'),
-	path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
-	renderer: 'svg',
-	loop: true,
-	autoplay: true
-};
-
-// Cargar la animación
-var anim = bodymovin.loadAnimation(animationOptions);
