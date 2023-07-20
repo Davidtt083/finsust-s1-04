@@ -679,3 +679,11 @@ a {
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
+
+.logo-egade{
+  position: absolute;
+  width: 224px;
+  height: auto;
+  margin-top: 19px;
+  margin-left: 630px;
+}
